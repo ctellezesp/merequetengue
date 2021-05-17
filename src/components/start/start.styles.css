@@ -1,0 +1,63 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+
+h1 {
+	margin: 0;
+}
+
+.main-text {
+	padding: 0 15px;
+	text-align: justify;
+}
+
+.main-btn {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.main-img {
+	width: 90%;
+	height: auto;
+	align-self: center;
+}
+
+.btn {
+	margin: 5px 0 !important;
+}
+
+.main-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+	.main {
+		flex-direction: row;
+	}
+
+	.main-body {
+		width: 50%;
+	}
+
+	.main-btn {
+		width: 49%;
+	}
+
+	.main-img {
+		width: 50%;
+	}
+
+	.btn {
+		width: 50% !important;
+	}
+}

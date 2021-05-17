@@ -1,0 +1,28 @@
+.main-subscription {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.subscription-img {
+	width: 90%;
+	height: auto;
+}
+
+.subscription-img-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.form-section {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.MuiFormControl-root {
+	margin: 10px 0 !important;
+}

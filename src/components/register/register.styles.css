@@ -1,0 +1,32 @@
+.register-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.register-body {
+	padding: 20px;
+}
+
+.register-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	width: 90%;
+}
+
+.paper-register {
+	width: 90%;
+}
+
+@media screen and (min-width: 720px) {
+	.paper-register {
+		width: 50%;
+	}
+}

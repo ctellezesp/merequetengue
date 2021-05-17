@@ -1,0 +1,47 @@
+.login-main {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-body {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.full-width {
+	width: 100%;
+	margin: 5px 0;
+}
+
+.inner-body {
+	padding: 10px;
+	width: 90%;
+}
+
+.custom-input {
+	margin: 5px 0 !important;
+}
+
+.title {
+	align-self: center;
+}
+
+.login-btn {
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+	.login-body {
+		width: 50%;
+	}
+}

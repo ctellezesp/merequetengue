@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Start from './components/start/start.component';
+import Login from './components/login/login.component';
+import Register from './components/register/register.component';
+import { Route, Switch } from 'react-router';
+import SubscriptionDetails from './components/subscription-details/subscription-details.component';
+import SubscriptionList from './components/subscription-list/subscription-list.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+  return(
+    <Switch>
+      <Route path='/' exact component={Start} />
+      <Route path='/login' component={Login} />
+      <Route path='/register' component={Register} />
+      <Route path='/subscriptions/add' component={SubscriptionDetails} />
+      <Route path='/subscriptions/edit/:id' component={SubscriptionDetails} />
+      <Route path='/subscriptions' component={SubscriptionList} />
+    </Switch>
   );
 }
 
