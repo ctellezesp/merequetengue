@@ -11,10 +11,10 @@ const Start = () => {
         history.push(path);
     }
 
-    return(
+    return (
         <div className='main'>
             <div className='main-body'>
-                <img className='main-img' src='https://www.paidmembershipspro.com/wp-content/uploads/2016/09/Subscription-check-300x300.png' alt='logo' />
+                <img className='main-img' src='https://i.imgur.com/8YYJH8D.png' alt='logo' />
                 <div className='main-text'>
                     <h1>Merequetengue</h1>
                     <p>
@@ -25,14 +25,14 @@ const Start = () => {
             <div className='main-btn'>
                 <Button
                     color='primary'
-                    className='btn' 
+                    className='btn'
                     variant="contained"
                     onClick={() => navigateTo('/login')}
                 >
                     Log In
                 </Button>
-                <Button 
-                    className='btn' 
+                <Button
+                    className='btn'
                     variant="outlined"
                     onClick={() => navigateTo('/register')}
                 >
